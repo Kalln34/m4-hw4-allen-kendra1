@@ -1,0 +1,87 @@
+body {
+    background-color: lightblue;
+    color: white;
+    max-width: 900px;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+    transform: translateY(-20px);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    color: lightcoral;
+    transform: translateY(20px);
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+    border: 2px solid black;
+    transform: translateY(20px);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-family: Fantasy, Papyrus;
+    font-weight: 900;
+}
+
+#img2 {
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+
+
+section.discography {
+    text-align: center;
+}
+
+ol {
+    text-align: center; 
+    list-style: inside;
+    color: lightseagreen;
+}
+
+Ul {
+    text-align: center;
+    list-style: inside;
+}
+
+footer {
+    text-align: center;
+    transform: translateY(30px);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+div {
+    transform: translateY(20px);
+}
+
+ol {
+    transform: translateX(-15px);
+}
+
+.background > p {
+    color: black;
+}
+
+section.mainpage {
+background-image: url("images/ffxvi_image.png");
+}
